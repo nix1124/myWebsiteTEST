@@ -1,0 +1,10 @@
+.c2, .c3, .c4
+{
+    /*! width: 50%; */
+    display: table-cell;
+}
+
+.c2, .c4
+{
+    width: 1%;
+}

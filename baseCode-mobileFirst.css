@@ -1,0 +1,105 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c1, .c2, .c3, .c4, .c5
+{
+    width: 100%;
+    min-width: 150px;
+    height: auto;
+}
+
+.c1
+{
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+#logo
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.85rem;
+    font-weight: bold;
+    padding-top: 6.3px;
+    
+}
+
+#menu
+{
+    justify-content: center;
+    font-family: monospace;
+    padding-bottom: 6px;
+}
+
+li
+{
+    text-decoration: none;
+    display: flex;
+    display: inline-block;
+    padding-right: 17px;
+    justify-content: center;
+    margin-top: 13.5px;
+    font-size: 10.8px
+}
+
+.c2
+{
+    background-color: #0062d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 150px;
+}
+
+.c3
+{
+    background-color: black;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: lighter;
+    text-align: center;
+    padding: 17px;
+    font-size: 1.8rem;
+}
+
+.c4
+{
+    display: flex;
+    flex-wrap: wrap;
+
+
+    background-color: #0062d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 150px;
+}
+
+.c5
+{
+    background-color: black;
+    color: white;
+    text-align: center; 
+    padding: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
